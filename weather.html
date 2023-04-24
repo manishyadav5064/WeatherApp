@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weather.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="boxx">
+        <div class="inputt">
+          <input type="text" placeholder="City Name" />
+          <button class="btn1" onclick="checkWeather()">
+            <img src="search.png" alt="" />
+          </button>
+        </div>
+        <span class="error">Enter Valid City</span>
+        <div class="weatherr">
+        <img src="clouds.png" alt="" class="weather-icon" />
+        <div class="curr">
+          <h1 class="temp1">34°c</h1>
+          <h2 class="city1">Delhi</h2>
+        </div>
+        <div class="extra">
+          <div class="col1 A">
+            <div>
+              <img src="humidity.png" alt="" />
+            </div>
+            <div>
+              <h1 class="humidity1">48%</h1>
+              <p>Humidity</p>
+            </div>
+          </div>
+          <div class="col2 A">
+            <div>
+              <img src="wind.png" alt="" />
+            </div>
+            <div>
+              <h1 class="wind1">14 km/h</h1>
+              <p>Wind Speed</p>
+            </div>
+          </div>
+        </div>
+      </div></div>
+    </div>
+
+    <script src="weather.js"></script>
+  </body>
+</html>
